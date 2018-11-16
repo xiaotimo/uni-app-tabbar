@@ -1,0 +1,21 @@
+<template name="74f892d6">
+  <view class="_view data-v-da115a3a content">
+    <view class="_view data-v-da115a3a input-group">
+      <view class="_view data-v-da115a3a input-row border">
+        <text class="_text data-v-da115a3a title">账号：</text>
+        <input type="text" value="{{account}}" bindinput="handleProxy" placeholder="请输入账号" data-eventid="{{'U3o-0'}}" data-comkey="{{$k}}" class="_input data-v-da115a3a" />
+      </view>
+      <view class="_view data-v-da115a3a input-row border">
+        <text class="_text data-v-da115a3a title">密码：</text>
+        <input type="text" password="true" value="{{password}}" bindinput="handleProxy" placeholder="请输入密码" data-eventid="{{'DDb-1'}}" data-comkey="{{$k}}" class="_input data-v-da115a3a" />
+      </view>
+      <view class="_view data-v-da115a3a input-row">
+        <text class="_text data-v-da115a3a title">邮箱：</text>
+        <input type="text" value="{{email}}" bindinput="handleProxy" placeholder="请输入邮箱" data-eventid="{{'zUX-2'}}" data-comkey="{{$k}}" class="_input data-v-da115a3a" />
+      </view>
+    </view>
+    <view class="_view data-v-da115a3a btn-row">
+      <button type="primary" class="_button data-v-da115a3a primary" bindtap="handleProxy" data-eventid="{{'3Tx-3'}}" data-comkey="{{$k}}">注册</button>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,64 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页,
+        {
+            "path": "pages/tabbar/tabbar0",
+            "style": {
+                "navigationBarTitleText": "第0个页面"
+            }
+        }, {
+            "path": "pages/tabbar/tabbar1",
+            "style": {
+                "navigationBarTitleText": "第1个页面"
+            }
+        }, {
+            "path": "pages/tabbar/tabbar2",
+            "style": {
+                "navigationBarTitleText": "第2个页面"
+            }
+        }, {
+            "path": "pages/tabbar/tabbar3",
+            "style": {
+                "navigationBarTitleText": "第3个页面"
+            }
+        }, {
+            "path": "pages/tabbar/tabbar4",
+            "style": {
+                "navigationBarTitleText": "第4个页面"
+            }
+        }
+    ],
+    "tabBar": {
+        "color": "#7a7e83",
+        "selectedColor": "#0faeff",
+        "backgroundColor": "#ffffff",
+        "list": [{
+            "pagePath": "pages/tabbar/tabbar0",
+            "text": "第0",
+            "iconPath": "static/img/home.png",
+            "selectedIconPath": "static/img/homeHL.png"
+        }, {
+            "pagePath": "pages/tabbar/tabbar1",
+            "text": "第1",
+            "iconPath": "static/img/user.png",
+            "selectedIconPath": "static/img/userHL.png"
+        }, {
+            "pagePath": "pages/tabbar/tabbar2"
+        }, {
+            "pagePath": "pages/tabbar/tabbar3",
+            "text": "第3",
+            "iconPath": "static/img/template.png",
+            "selectedIconPath": "static/img/templateHL.png"
+        },
+		 {
+			"pagePath": "pages/tabbar/tabbar4",
+			"text": "第4",
+			"iconPath": "static/img/home.png",
+			"selectedIconPath": "static/img/homeHL.png"
+		}]
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#0faeff",
+        "backgroundColor": "#fbf9fe"
+    }
+}

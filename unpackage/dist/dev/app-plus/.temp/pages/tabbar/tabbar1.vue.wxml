@@ -1,0 +1,5 @@
+<template name="dae8a600">
+  <view class="_view data-v-fb2592ae content">
+    <view class="_view data-v-fb2592ae"> 这里是第1个tabbar </view>
+  </view>
+</template>
