@@ -42,7 +42,8 @@
             "iconPath": "static/img/user.png",
             "selectedIconPath": "static/img/userHL.png"
         }, {
-            "pagePath": "pages/tabbar/tabbar2"
+            "pagePath": "pages/tabbar/tabbar2",
+	    "text": "1",
         }, {
             "pagePath": "pages/tabbar/tabbar3",
             "text": "第3",
