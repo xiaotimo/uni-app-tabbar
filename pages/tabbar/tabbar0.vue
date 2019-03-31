@@ -24,6 +24,7 @@
 			},function(e){
 				//console.log('bmp1.png load failed! '+JSON.stringify(e));
 			});
+			//ios需要将图片转为base64才能显示出来
 			this.createtab();
 		},
 		methods: {
